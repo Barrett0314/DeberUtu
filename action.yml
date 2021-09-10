@@ -1,0 +1,13 @@
+on:[push]
+
+jobs:
+	hello_world_job:
+	runs-on: ubumti-lastest
+	name: Tarea para saludar
+	steps:
+	name: Hola mundo action step
+	id: hello
+	uses: actions/hello-world-dockear-action@v1
+	with: 
+	who-to-greet: 'Bruno'
+
